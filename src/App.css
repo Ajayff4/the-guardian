@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #2F363E;
+}
+
+form {
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 350px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2F363E;
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+  10px 10px 70px rgba(0, 0, 0, 0.25),
+  inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+  inset 5px 5px 10px rgba(255, 255, 255, 0.2),
+  inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.container h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.inputBox {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inputBox span {
+  display: inline-block;
+  color: #FFF;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.75rem;
+  border-left: 4px solid #FFF;
+  padding-left: 4px;
+  line-height: 1rem;
+}
+
+.inputBox .box {
+  display: flex;
+}
+
+.inputBox .box .icon {
+  position: relative;
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  background: #FF2C74;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: #FFF;
+  font-size: 1.15rem;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+  inset 2px 2px 5px rgba(255, 255, 255, 0.25),
+  inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.inputBox .box input {
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+  inset 2px 2px 5px rgba(0, 0, 0, 0.25),
+  inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.inputBox .box select {
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+  inset 2px 2px 5px rgba(0, 0, 0, 0.25),
+  inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.inputBox .box input[type="submit"] {
+  background: #1F83F2;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+  inset 2px 2px 5px rgba(255, 255, 255, 0.35),
+  inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.inputBox .box input[type="submit"]:hover {
+  filter: brightness(1.1);
+}
+
+.inputBox .box input[type="search"] {
+  margin-right: 10px;
+}
+
+label {
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+}
+
+label input {
+  margin-right: 5px;
+}
+
+.forgot {
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
